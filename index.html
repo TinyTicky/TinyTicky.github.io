@@ -5,38 +5,44 @@
 <title>TinyPage</title>
 </head>
 <style>
-    tie
+    a:link
     {
-        color:white;
-        text-align:center;
-        font-size: x-large;
-    } 
-</style>
-<style>
-    a
-    {
-        a:link {color:red;text-decoration:none;}      
-        a:visited {color:red;text-decoration:none;}  
-        a:hover {color:red;text-decoration:none;}  
-        a:active {color:red;text-decoration:none;}  
-
+        color:red;
+        text-decoration: none;
     }
+    a:visited 
+    {
+        color:red;
+        text-decoration:none;
+    }  
+    a:hover 
+    {
+        color:red;
+        text-decoration:none;
+    }  
+    a:active 
+    {color:red
+        ;text-decoration:none;
+    }  
 </style>
 <body style="background-color: black;">
 
-<tie>这里是小时</tie>
+<p style="font-size: 50px;text-align: center;color: white;">这里是小时</p>
 
 <img src="Ishmaorange.jpg" alt="以实玛橘" height="320" width="320">
 
-<p>这里有一些好玩的东西：</p>
+<p style="color: white;">这里有一些好玩的东西：</p>
 
-<div style="width:150px;overflow: hidden;">
+<div style="width:10000px;overflow: hidden;">
  
-    <div id="title" style="height:30px;background-color: white;" onclick="onTileClick()">一些基金会项目</div>
+    <div id="title" style="height:10px;width:10000px;background-color: black;color: white;" onclick="onTileClick()">一些基金会项目</div>
    
-    <div id="content" style="height:150px;background-color: rgb(173, 38, 38);">
-        <p> <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3000">SCP-CN-3000</a>众节点永垂不朽<br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3999">SCP-CN-3999</a>跨越天堂<br>
+    <div id="content" style="height:150px;background-color: black;color: white;">
+        <p> <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3000">SCP-CN-3000</a>&nbsp;&nbsp;&nbsp;&nbsp;众节点永垂不朽<br>
+            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3999">SCP-CN-3999</a>&nbsp;&nbsp;&nbsp;&nbsp;跨越天堂<br>
+            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-2000">SCP-CN-2000</a>&nbsp;&nbsp;&nbsp;&nbsp;混沌理论<br>
+            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-2999">SCP-CN-2999</a>&nbsp;&nbsp;&nbsp;&nbsp;Observator Ex Machina<br>
+            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-1000">SCP-CN-1000</a>&nbsp;&nbsp;&nbsp;&nbsp;2300<br>
         </p>
     </div>
     
@@ -46,7 +52,6 @@
       var content = document.getElementById("content");
       function onTileClick() {content.style.height = content.offsetHeight===150?0+'px':150+'px';}
   </script> 
-
 
 </body>
 </html>
