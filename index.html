@@ -50,11 +50,25 @@
     </div>
     
   </div>
+  <div style="width:1000px;overflow: hidden;margin-left: 1em;">
+ 
+    <div id="title2" style="height:10px;width:1000px;background-color: black;color: white;" onclick="onTileClick2()">感兴趣的填词</div>
+   
+    <div id="content2" style="height:0px;background-color: black;color: white;">
+        <p> <br>测试用，记得删掉<br><br>
+        </p>
+    </div>
+    
+  </div>
    
   <script type="text/javascript">
-      var content = document.getElementById("content1");
-      function onTileClick1() {content.style.height = content.offsetHeight===1000?0+'px':1000+'px';}
+      var content1 = document.getElementById("content1");
+      function onTileClick1() {content1.style.height = content1.offsetHeight===1000?0+'px':1000+'px';}
   </script> 
+  <script type="text/javascript">
+    var content2 = document.getElementById("content2");
+    function onTileClick2() {content2.style.height = content2.offsetHeight===1000?0+'px':1000+'px';}
+</script> 
 
 </body>
 </html>
