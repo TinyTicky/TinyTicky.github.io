@@ -27,31 +27,33 @@
 </style>
 <body style="background-color: black;">
 
-<p style="font-size: 50px;text-align: center;color: white;">这里是小时</p>
+<p style="font-size: 50px;text-align: center;color: white;">小时的箱子</p>
 
-<img src="Ishmaorange.jpg" alt="以实玛橘" height="100" width="320">
+<p style="color: white;font-size: larger;margin-left: 20px;">这里有一些好玩的东西：</p>
 
-<p style="color: white;">这里有一些好玩的东西：</p>
-
-<div style="width:10000px;overflow: hidden;margin-left: 1em;">
+<div style="width:1000px;overflow: hidden;margin-left: 1em;">
  
-    <div id="title" style="height:10px;width:10000px;background-color: black;color: white;" onclick="onTileClick()">一些基金会项目（点击以收起）</div>
+    <div id="title1" style="height:10px;width:1000px;background-color: black;color: white;" onclick="onTileClick1()">感兴趣的基金会项目（点击以展开）</div>
    
-    <div id="content" style="height:1000px;background-color: black;color: white;">
-        <p> <br>它们有的在创意上一鸣惊人，有的在情感上收放自如，但是共同点是出色的文笔以及极高的评分。<br><br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3000">SCP-CN-3000</a>&nbsp;&nbsp;&nbsp;&nbsp;众节点永垂不朽<br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-3999">SCP-CN-3999</a>&nbsp;&nbsp;&nbsp;&nbsp;跨越天堂<br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-2000">SCP-CN-2000</a>&nbsp;&nbsp;&nbsp;&nbsp;混沌理论<br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-2999">SCP-CN-2999</a>&nbsp;&nbsp;&nbsp;&nbsp;Observator Ex Machina<br>
-            <a href="http://scp-wiki-cn.wikidot.com/scp-cn-1000">SCP-CN-1000</a>&nbsp;&nbsp;&nbsp;&nbsp;2300<br>
+    <div id="content1" style="height:0px;background-color: black;color: white;">
+        <p> <br>它们有的在创意上一鸣惊人，有的在情感上收放自如，有的在表现上颇费苦心；但是共同点是它们都有出色的文笔和极高的评分。<br><br>
+            <ul>
+				<li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-3000">SCP-CN-3000</a>&nbsp;&nbsp;&nbsp;&nbsp;众节点永垂不朽</li>
+            	<li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-3999">SCP-CN-3999</a>&nbsp;&nbsp;&nbsp;&nbsp;跨越天堂</li>
+            	<li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-2000">SCP-CN-2000</a>&nbsp;&nbsp;&nbsp;&nbsp;混沌理论</li>
+            	<li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-2999">SCP-CN-2999</a>&nbsp;&nbsp;&nbsp;&nbsp;Observator Ex Machina</li>
+            	<li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-1000">SCP-CN-1000</a>&nbsp;&nbsp;&nbsp;&nbsp;2300</li>
+                <li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-1109">SCP-CN-1109</a>&nbsp;&nbsp;&nbsp;&nbsp;朗基努斯计划</li>
+                <li><a href="http://scp-wiki-cn.wikidot.com/scp-cn-1559">SCP-CN-1559</a>&nbsp;&nbsp;&nbsp;&nbsp;青鸟</li>
+			</ul>
         </p>
     </div>
     
   </div>
    
   <script type="text/javascript">
-      var content = document.getElementById("content");
-      function onTileClick() {content.style.height = content.offsetHeight===150?0+'px':150+'px';}
+      var content = document.getElementById("content1");
+      function onTileClick1() {content.style.height = content.offsetHeight===1000?0+'px':1000+'px';}
   </script> 
 
 </body>
